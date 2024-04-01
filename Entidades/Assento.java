@@ -1,9 +1,9 @@
 package Entidades;
 
 public class Assento {
-    Pessoa passageiro;
-    int numero;
-    Voo voo;
+    private Pessoa passageiro;
+    private int numero;
+    private Voo voo;
 
     public Assento(int numero, Voo voo) {
         this.numero = numero;
