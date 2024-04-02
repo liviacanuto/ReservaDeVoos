@@ -1,5 +1,5 @@
 package Entidades;
-
+//prefira composição a herança
 public class Assento {
     private Pessoa passageiro;
     private int numero;
