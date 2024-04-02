@@ -1,9 +1,10 @@
-//inversao de dependencia
+/*Autoras: 
+    Gabrielly Sena RA: 164912
+    Livia Canuto RA: 164921  
+*/
 
 import java.time.Instant;
-
 import java.sql.Date;
-
 import Entidades.Assento;
 import Entidades.Pessoa;
 import Entidades.Voo;
@@ -11,6 +12,7 @@ import Implementacoes.GerenciadorAssento;
 import Implementacoes.GerenciadorVoo;
 import Interfaces.IGerenciadorAssento;
 import Interfaces.IGerenciadorVoo;
+
 //Principio Demeter
 public class Main {
     public static void main(String[] args) {
